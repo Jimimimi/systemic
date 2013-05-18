@@ -60,13 +60,7 @@ def supersystem(n):
     global sup
     sup = []
     
-    for i in range(n):
-        mid = []
-        
-        for f in range(2):
-            mid.append(syst(random.randint(0,1),random.randint(0,1)))
-
-        sup.append(syst(mid[0].output,mid[1].output))
+    
 
     
 
